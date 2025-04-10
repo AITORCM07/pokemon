@@ -1,56 +1,57 @@
-/* Estil general per centrar la targeta a la pantalla */
+/* Estils generals per al cos de la pàgina */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Color de fons general suau */
-    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fons suau per al cos */
+    font-family: Arial, sans-serif; /* Tipus de lletra general */
 }
 
-/* Capa principal de la targeta */
+/* Capa principal de la targeta .pokemon-card */
 .pokemon-card {
-    background-color: #e0e0e0; /* Gris clar */
-    border-radius: 15px;
+    background-color: #e0e0e0; /* Fons gris clar */
+    border-radius: 15px; /* Cantonades arrodonides */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra per profunditat */
-    padding: 20px;
-    text-align: center;
-    max-width: 300px;
+    padding: 20px; /* Marge interior */
+    text-align: center; /* Centra el text dins la targeta */
+    width: 250px; /* Amplada fixa per la targeta */
+    margin: 20px;
 }
 
-/* Imatge del Pokémon */
+/* Imatge del Pokémon .pokemon-image */
 .pokemon-image {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    max-width: 100%; /* Limita l'amplada màxima de la imatge */
+    border-radius: 10px; /* Cantonades arrodonides per a la imatge */
+    margin-bottom: 15px; /* Marge inferior per separar la imatge del text */
 }
 
-/* Informació del Pokémon */
+/* Informació del Pokémon .pokemon-info */
 .pokemon-info {
-    background-color: #c8f7c5; /* Verd clar */
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 15px;
+    background-color: #c8f7c5; /* Fons verd clar */
+    border-radius: 10px; /* Cantonades arrodonides */
+    padding: 15px; /* Marge interior */
+    margin-bottom: 15px; /* Marge inferior per separar el text */
 }
 
-/* Nom del Pokémon */
+/* Nom del Pokémon .pokemon-name */
 .pokemon-name {
-    font-family: 'Verdana', sans-serif;
-    font-size: 1.5em;
-    color: #2c3e50; /* Contrast amb el verd clar */
-    margin-bottom: 10px;
+    font-family: 'Verdana', sans-serif; /* Tipus de lletra distintiu */
+    font-size: 1.5em; /* Mida més gran per al nom */
+    color: #2c3e50; /* Color fosc per contrastar amb el fons */
+    margin-bottom: 10px; /* Marge inferior per separar del tipus */
 }
 
-/* Tipus del Pokémon */
+/* Tipus del Pokémon .pokemon-type */
 .pokemon-type {
-    color: #27ae60; /* Verd per a tipus Planta */
-    margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: bold; /* Fet en negreta */
+    color: #27ae60; /* Verd per al tipus Planta */
+    margin-bottom: 10px; /* Marge inferior per separar de la descripció */
 }
 
-/* Descripció del Pokémon */
+/* Descripció del Pokémon .pokemon-description */
 .pokemon-description {
-    font-size: 0.9em;
-    color: #7f8c8d; /* Gris clar per diferenciar */
+    font-size: 0.9em; /* Reduir la mida de la lletra */
+    color: #7f8c8d; /* Color gris clar per diferenciar-la */
 }
