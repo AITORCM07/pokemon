@@ -24,6 +24,8 @@ body {
 /* Imatge del Pokémon .pokemon-image */
 .pokemon-image {
     max-width: 100%; /* Limita l'amplada màxima de la imatge */
+    width: 250px; /* Amplada fixa per a la imatge (més gran que abans) */
+    height: auto; /* Manté la proporció de l'imatge */
     border-radius: 10px; /* Cantonades arrodonides per a la imatge */
     margin-bottom: 15px; /* Marge inferior per separar la imatge del text */
 }
