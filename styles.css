@@ -5,35 +5,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #5eff00; /* Color de fons suau per al cos */
-    font-family: Arial, sans-serif; /* Tipus de lletra general */
-}
-
-/* Capa principal de la targeta .pokemon-card */
-.bulbasu.pokemon-image {
-    background-color: #e0e0e0; /* Fons gris clar */
-    border-radius: 15px; /* Cantonades arrodonides */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra per profunditat */
-    padding: 20px; /* Marge interior */
-    text-align: center; /* Centra el text dins la targeta */
-    width: 250px; /* Amplada fixa per la targeta */
-    margin: 20px;
-}
-
-/* Imatge del Pokémon .pokemon-image */
-.pokemon-image {
-    max-width: 100%; /* Limita l'amplada màxima de la imatge */
-    border-radius: 10px; /* Cantonades arrodonides per a la imatge */
-    margin-bottom: 15px; /* Marge inferior per separar la imatge del text */
-}
-
-/* Estils generals per al cos de la pàgina */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     background-color: #f0f0f0; /* Fons suau per al cos */
     font-family: Arial, sans-serif; /* Tipus de lletra general */
 }
@@ -75,7 +46,7 @@ body {
 /* Tipus del Pokémon .pokemon-type */
 .pokemon-type {
     font-weight: bold; /* Fet en negreta */
-    color: #27ae60; /* Verd per al tipus Planta */
+    color: #8e44ad; /* Lila per al tipus Venen */
     margin-bottom: 10px; /* Marge inferior per separar de la descripció */
 }
 
