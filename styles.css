@@ -43,10 +43,27 @@ body {
     margin-bottom: 10px; /* Marge inferior per separar del tipus */
 }
 
-/* Tipus del Pokémon .pokemon-type */
-.pokemon-type {
+/* Tipus del Pokémon .pokemon-type (Planta) */
+.pokemon-type.planta {
+    display: inline-block;
     font-weight: bold; /* Fet en negreta */
-    color: #8e44ad; /* Lila per al tipus Venen */
+    color: #2c3e50; /* Color fosc per al text */
+    background-color: #27ae60; /* Verd per al tipus Planta */
+    border: 2px solid #1e8449; /* Borde verd més fosc per al tipus Planta */
+    border-radius: 15px; /* Cantonades arrodonides */
+    padding: 5px 10px; /* Espai a dins */
+    margin-bottom: 10px; /* Marge inferior per separar de la descripció */
+}
+
+/* Tipus del Pokémon .pokemon-type (Venen) */
+.pokemon-type.veneno {
+    display: inline-block;
+    font-weight: bold; /* Fet en negreta */
+    color: #ffffff; /* Text blanc per contrastar amb el fons */
+    background-color: #8e44ad; /* Lila per al tipus Venen */
+    border: 2px solid #6c3483; /* Borde lila més fosc per al tipus Venen */
+    border-radius: 15px; /* Cantonades arrodonides */
+    padding: 5px 10px; /* Espai a dins */
     margin-bottom: 10px; /* Marge inferior per separar de la descripció */
 }
 
