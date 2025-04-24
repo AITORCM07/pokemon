@@ -74,3 +74,28 @@ body {
     font-size: 0.9em; /* Reduir la mida de la lletra */
     color: #7f8c8d; /* Color gris clar per diferenciar-la */
 }
+
+    /* Tipus del Pokémon .pokemon-type (Inmunidad) */
+.pokemon-type.Inmunidad {
+    display: inline-block;
+    font-weight: bold; /* Fet en negreta */
+    color: #2c3e50; /* Color fosc per al text */
+    background-color: #00f7ff; /* blau per al tipus Inmunidad */
+    border: 2px solid #00d1c7; /* Borde blau més fosc per al tipus Inmunidad */
+    border-radius: 15px; /* Cantonades arrodonides */
+    padding: 5px 10px; /* Espai a dins */
+    margin-bottom: 10px; /* Marge inferior per separar de la descripció */
+}
+
+/* Tipus del Pokémon .pokemon-type (Sebo) */
+.pokemon-type.Sebo {
+    display: inline-block;
+    font-weight: bold; /* Fet en negreta */
+    color: #ffffff; /* Text blanc per contrastar amb el fons */
+    background-color: #7a7a7a; /* gris per al tipus Sebo */
+    border: 2px solid #585858; /* Borde gris més fosc per al tipus Sebo */
+    border-radius: 15px; /* Cantonades arrodonides */
+    padding: 5px 10px; /* Espai a dins */
+    margin-bottom: 10px; /* Marge inferior per separar de la descripció */
+
+}
