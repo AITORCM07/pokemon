@@ -75,7 +75,19 @@ body {
     color: #7f8c8d; /* Color gris clar per diferenciar-la */
 }
 
+/* Capa principal de la targeta .pokemon-card */
+.pokemon-card {
+    background-color: #ffffff; /* Fons blanc per la targeta */
+    border-radius: 15px; /* Cantonades arrodonides */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra per profunditat */
+    padding: 20px; /* Marge interior */
+    text-align: center; /* Centra el text dins la targeta */
+    width: 280px; /* Amplada fixa per a la targeta */
+    border: 2px solid #ccc; /* Líneas fines per definir la targeta */
+    background-color: #f9f9f9; /* Color de fons suau */
     /* Tipus del Pokémon .pokemon-type (Inmunidad) */
+}
+  
 .pokemon-type.Inmunidad {
     display: inline-block;
     font-weight: bold; /* Fet en negreta */
